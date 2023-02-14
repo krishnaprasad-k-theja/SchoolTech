@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+
+#section {
+    width:100%;
+  height:100%;
+    float:left;
+    padding:2px;
+  background-color:#00BFFF;
+      
+}
+
+table, td, th {
+    border: 1px black;
+  padding:2px;
+  
+}   
+
+th {
+    background-color: #FFE4C4;
+    color: black;
+  padding:5px;
+}
+tr{
+ background-color: #F0FFFF;
+    color: black;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:right;
+   padding:20px;     
+}
+
+
+</style>
+</head>
+
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Attendance Register</title>
+</style>
+</head>
+</head>
+<body style="background-color:#00BFFF">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Attendance Register</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="static/attendance_view/css/main.css">
+<link rel="stylesheet" href="static/attendance_view/css/print.css" media="print">
+<script src="static/attendance_view/js/jquery-1.6.4.min.js"></script>
+<script src="static/attendance_view/js/custom.js"></script>
+<!--[if lt IE 9]>
+<script src="static/attendance_view/js/css3-mediaqueries.min.js"></script>
+<script src="static/attendance_view/js/html5.js"></script>
+<script src="static/attendance_view/js/IE9.js"></script>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Back to Home</title>
+  <link rel="shortcut icon" href="http://designshack.net/favicon.ico">
+  <link rel="icon" href="http://designshack.net/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+  <script type="text/javascript" src="static/attendance_view/js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="static/attendance_view/js/jquery.leanModal.min.js"></script>
+  <!-- jQuery plugin leanModal under MIT License http://leanmodal.finelysliced.com.au/ -->
+</head>
+<body>
+<div class="section">
+<center>
+
+<table  style="width:100%" align="center">
+ <tr>
+    <th colspan="15">Attendence Sheet</th>
+  </tr>
+
+            <tr>
+                            <th>Roll No. </th>
+                                <th>
+<input type="date" name="bday" required placeholder="Enter date">
+                                <br>
+                <hr><p>
+                Name/No. of lectures engaged</p> </th>
+                                <th><center><input type="text" style="width:25px"><hr><center><input type="text" style="width:15px"></th>                                           
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                <th><center><input type="text" style="width:25px"><hr><input type="text" style="width:15px"></th>
+                                <th>Total</br> lecture<br>attend</th>
+                <th>%<br>Attendence </th>
+                            </tr>
+                       
+                       <tr>
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                          
+               <tr>
+              
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                </tr> 
+                          
+              <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                </tr> 
+                          
+              <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+              
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+              
+            <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+              
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+              
+             <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                           <tr>
+              
+              <td> <center><input type="text" style="width:60px"> </center></td>
+                                <td>   <input type="text" style="width:100%">  </td>
+              
+                                <td>  <center><input type="text" style="width:15px"> </center> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"> </td>
+                 <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                  <td>  <center><input type="text" style="width:15px"> </td>
+                                <td>   <center><input type="text" style="width:15px"> </td>
+                 <td> <center><input type="text" style="width:15px"> </td>
+                                <td>  <center><input type="text" style="width:15px"></td>
+                <td>  <center><input type="text" style="width:35px"> </td>
+                                <td>   <center><input type="text" style="width:40px"> </td>
+                
+              </tr> 
+                          
+                          
+                    </table> 
+          
+          <button class="button" onclick="alert('Attendence Submitted')">Calculate</button>
+          </center>
+          </div>
+
+
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_divs by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jan 2015 07:20:27 GMT -->
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin SignUp Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="/static/adminsignup/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/static/adminsignup/css/main.css">
+
+<!-- //web font -->
+</head>
+<body>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<h1>Admin SignUp Form</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="#" method="post">{% csrf_token %}
+					<input class="text" type="text" name="ad_id" placeholder="ID" required=""><br>
+					<input class="text" type="text" name="ad_name" placeholder="Name" required=""><br>
+					<input class="text" type="email" name="ad_email" placeholder="Email" required=""><br>
+					<input class="text" type="text" name="ad_phone" placeholder="Phone" pattern="[0-9]{10}" required=""><br>
+					<input class="text" type="text" name="ad_uname" placeholder="Username" required=""><br>
+					<input class="text" type="password" name="ad_pwd" placeholder="Password" required="">
+					<input class="text w3lpass" type="password" name="ad_conf_pwd" placeholder="Confirm Password" required="">
+					<div class="wthree-text">
+						<label class="anim">
+							<input type="checkbox" class="checkbox" required="">
+							<span>I Agree To The Terms & Conditions</span>
+						</label>
+						<div class="clear"> </div>
+						<span style="color: rgb(197, 59, 82);">{{msg}}</span>
+					</div>
+					<input type="submit" value="SIGNUP">
+				</form>
+				<p>Already have an Account? <a href="/admin_login/"> Login Now!</a></p>
+			</div>
+		</div>
+		<!-- copyright -->
+		<!--div class="colorlibcopy-agile">
+			<p>© 2018 Colorlib Signup Form. All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+		</div!-->
+		<!-- //copyright -->
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+</body>
+</html>

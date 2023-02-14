@@ -1,0 +1,133 @@
+body {
+    height:auto !important;
+    height:100%;
+    min-height:100%;
+    background:url(/static/registration/images/background.jpg) repeat-y center 194px;
+    min-width:940px;
+}
+
+
+table{
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color:lightblue;
+}
+/*table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: SlateBlue; 
+  border-collapse: collapse; 
+  border: 2px solid navy
+}*/
+table.inner{
+  border: 0px
+}
+
+ h3 { 
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color:#008cc4;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.container {
+  margin:0 auto;
+  width:940px;
+  overflow:hidden;
+  font-size:.875em;
+  padding-bottom:176px;
+}
+
+.wrap {
+  height:auto !important;
+  height:100%;
+  min-height:100%;
+  background:url(/static/registration/images/tail-middle.jpg) repeat-y center 194px;
+  min-width:940px;
+}
+
+input, select, textarea {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1em;
+  vertical-align:middle;
+  font-weight:normal;
+}
+fieldset {
+  border:0;
+}
+
+header {
+  background:url(/static/registration/images/header-bg.jpg) no-repeat center top;
+  min-width:940px;
+}
+
+header .container {
+  height:50px;
+  position:relative;
+  padding-bottom:10px;
+}
+
+header nav ul li {
+  float:left;
+  font-size:16px;
+  line-height:1.2em;
+  text-transform:uppercase;
+  padding-right:1px;
+  background:url(/static/registration/images/divider.gif) repeat-y right top;
+  }
+
+header nav ul li a {
+  color:#454545;
+  text-decoration:none;
+  display:block;
+  float:left;
+  text-align:center;
+  padding:18px 0 20px 0;
+  background-repeat:no-repeat;
+  background-position:left top;
+}
+
+header nav ul li.current , header nav ul li a:hover {
+  color:#008cc4;
+}
+
+header nav ul li a.m1 {
+  width:186px;
+}
+header nav ul li.current a.m1 {
+  background-image:url(/static/registration/images/m1-act.jpg);
+}
+header nav ul li a.m2 {
+  width:179px;
+}
+header nav ul li.current a.m2 {
+  background-image:url(/static/registration/images/m2-act.jpg);
+}
+header nav ul li a.m3 {
+  width:208px;
+}
+header nav ul li.current a.m3 {
+  background-image:url(/static/registration/images/m3-act.jpg);
+}
+header nav ul li a.m4 {
+  width:196px;
+}
+header nav ul li.current a.m4 {
+  background-image:url(/static/registration/images/m4-act.jpg);
+}
+header nav ul li a.m5 {
+  width:167px;
+}
+header nav ul li.current a.m5 {
+  background-image:url(/static/registration/images/m5-act.jpg);
+}
